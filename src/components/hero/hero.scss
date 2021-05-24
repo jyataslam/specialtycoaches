@@ -1,0 +1,50 @@
+@use '/src/variables.scss' as var;
+
+.hero {
+    width: 100vw;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 60px;
+
+    h1 {
+        font-family: 'Goth', sans-serif;
+        font-size: 4.8rem;
+        font-weight: bold;
+        padding-bottom: 1.7rem;
+        padding-top: 1rem;
+        color: var.$lightBlack;
+    }
+
+    h4 {
+        font-size: 2.2rem;
+        font-weight: 600;
+        padding-top: 1.5rem;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-color: #024762;
+        background-image: linear-gradient(
+        70deg
+        ,#024762 35%,#ac7f54 70%,#ee06f2);
+        background-size: 100%;
+        background-repeat: repeat;
+        margin-bottom: 0;
+
+        span {
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-color: #ca4246;
+            background-image: linear-gradient(
+                145deg
+                ,#bff617,#93278d);
+            background-size: 100%;
+            background-repeat: repeat;
+        }
+    }
+
+    .sub-desc {
+        color: var.$lightBlack;
+        background: none;
+        -webkit-text-fill-color: initial;
+        padding-top: 0;
+    }
+}

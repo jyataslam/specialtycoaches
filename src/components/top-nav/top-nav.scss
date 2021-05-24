@@ -1,0 +1,22 @@
+@use '/src/variables.scss' as var;
+
+.top-nav {
+    background: rgba(7, 3, 26, 0.85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    display: block;
+    margin: 0;
+    width: 100%;
+    padding: 12px 0;
+
+    .links-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            color: var.$lightGrey;
+            font-size: .875rem;
+        }
+    }
+}

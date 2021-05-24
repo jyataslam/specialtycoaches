@@ -1,0 +1,24 @@
+.square {
+    padding: 20px;
+}
+
+.square-front {
+    grid-area: two;
+    background: #fafafa;
+}
+
+.square-back {
+    grid-area: three;
+    background: #fafafa;
+}
+
+.square-side {
+    grid-area: one;
+    background: #fafafa;
+}
+
+.square {
+    .gatsby-image-wrapper {
+        height: 100%;
+    }
+}

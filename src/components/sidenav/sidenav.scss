@@ -1,0 +1,37 @@
+@use '/src/variables.scss' as var;
+
+.sidenav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    padding: 27px 0;
+    background: var.$darkBlue;
+    color: var.$white;
+    visibility: hidden;
+    z-index: 10;
+    transition: all .6s cubic-bezier(.2,0,.3,1.6) 0s;
+
+    &.isOpen {
+        height: 100vh;
+        visibility: visible;
+        position: fixed;
+
+        .link {
+            opacity: 1;
+            transition: opacity 1s ease-in-out;
+        }
+    }
+
+    .link {
+        font-size: 3rem;
+        color: var.$white;
+        opacity: 0;
+        transition: all .3s;
+
+        &:hover {
+            color: var.$lightGrey;
+        }
+    }
+}
