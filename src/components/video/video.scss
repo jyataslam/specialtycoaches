@@ -1,0 +1,14 @@
+.video {
+    background: #fafafa;
+    padding: 20px;
+    max-width: 1140px;
+    height: 650px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto 20px;
+
+    iframe {
+        height: 100%;
+        width: 100%;
+    }
+}
