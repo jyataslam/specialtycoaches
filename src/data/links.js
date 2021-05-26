@@ -1,23 +1,19 @@
 const NavLinks = [
   {
-    title: "Home",
-    path: "/",
+    title: "Coaches",
+    hash: "/#coaches",
   },
   {
     title: "Services",
-    path: "/services",
-  },
-  {
-    title: "Coaches",
-    path: "/coaches",
+    hash: "/#services",
   },
   {
     title: "About",
-    path: "/about",
+    hash: "/#about",
   },
   {
     title: "Contact",
-    path: "/contact",
+    hash: "/#contact",
   },
 ]
 

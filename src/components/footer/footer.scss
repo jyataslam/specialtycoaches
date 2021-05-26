@@ -1,10 +1,10 @@
 @use '/src/variables.scss' as var;
 
 .footer {
-    position: relative;
-    background: linear-gradient(145deg, rgb(255 47 47), rgb(147, 39, 141));;
+    bottom: 0;
+    left: 0;
+    background: var.$bgFooter;
     color: var.$white;
-    height: 700px;
 
     h3, p {
         margin: 0;

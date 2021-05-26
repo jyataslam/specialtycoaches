@@ -1,7 +1,7 @@
 @use '/src/variables.scss' as var;
 
 .top-nav {
-    background: rgba(7, 3, 26, 0.85);
+    background: var.$bgTopNav;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     display: block;
@@ -15,7 +15,7 @@
         align-items: center;
 
         a {
-            color: var.$lightGrey;
+            color: var.$topNavLinks;
             font-size: .875rem;
         }
     }

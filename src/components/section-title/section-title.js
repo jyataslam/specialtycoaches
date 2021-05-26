@@ -2,13 +2,14 @@ import React from "react"
 
 import "./section-title.scss"
 
-const SectionTitle = ({ title, description }) => {
+const SectionTitle = ({ title, description, subDescription, span }) => {
   return (
     <div className="section-title">
       {/* <h4 className="title">{title}</h4> */}
       <h4 className="description">{description}</h4>
       <h4 className="description">
-        take your <span>pick</span>.
+        {subDescription}
+        <span>{span}</span>.
       </h4>
     </div>
   )

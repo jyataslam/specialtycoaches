@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { Container, Row, Col } from "react-bootstrap"
 import { Spin as Hamburger } from "hamburger-react"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 import Sidenav from "../sidenav/sidenav"
 
@@ -33,9 +34,9 @@ const Header = ({ siteTitle }) => {
         <Container>
           <Row>
             <Col xs={6} className="flex align-items-center">
-              <Link to="/">
+              <AnchorLink to="/">
                 <h4>{siteTitle}</h4>
-              </Link>
+              </AnchorLink>
             </Col>
             <Col xs={6} className="flex justify-content-flex-end">
               <Link to="/contact" className="button">

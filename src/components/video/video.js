@@ -9,7 +9,7 @@ const Video = ({ videoSrcUrl, videoTitle }) => {
         src={videoSrcUrl}
         title={videoTitle}
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        frameborder="0"
+        frameBorder="0"
       ></iframe>
     </section>
   )

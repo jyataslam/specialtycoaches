@@ -263,6 +263,30 @@ textarea {
 a:hover {
   opacity: .8;
 }
+.text-align-center {
+  text-align: center;
+}
+.text-align-left {
+  text-align: left;
+}
+.bg-light-grey {
+  background: #fafafa;
+}
+.bg-white {
+  background: #fff;
+}
+.color-dark-blue {
+  color: #473491;
+}
+.color-orange {
+  color: #e19200;
+}
+.color-pink {
+  color: #b72c31;
+}
+section {
+  padding: 120px 0;
+}
 * {
   box-sizing: inherit;
 }

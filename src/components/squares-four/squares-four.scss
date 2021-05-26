@@ -1,0 +1,21 @@
+.squares-four-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    min-height: 0;
+    min-width: 0;
+
+    .squares-four-item {
+        aspect-ratio: 1;
+        padding: 20px;
+        background: #fafafa;
+        overflow: hidden;
+        min-width: 0;
+
+        .gatsby-image-wrapper {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

@@ -5,6 +5,13 @@ module.exports = {
     author: `@specialtycoaches`,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: 0,
+        duration: 1000,
+      },
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,

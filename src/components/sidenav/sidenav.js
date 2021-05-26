@@ -21,8 +21,8 @@ const Sidenav = ({ isOpen, siteTitle }) => {
               alignItems: "center",
             }}
           >
-            {navLinks.map(link => (
-              <Link to={link.path} className="link">
+            {navLinks.map((link, index) => (
+              <Link to={link.path} className="link" key={index}>
                 {link.title}
               </Link>
             ))}

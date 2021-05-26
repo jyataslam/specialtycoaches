@@ -1,0 +1,18 @@
+@use '../../variables.scss' as var;
+
+.title-with-description {
+    margin-bottom: 100px;
+
+    .colorful-title {
+        margin-bottom: 0;
+    }
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    h5 {
+        color: var.$servicesDescriptionText;
+        letter-spacing: 0;
+    }
+}

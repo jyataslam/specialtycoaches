@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { Container, Row, Col } from "react-bootstrap"
 
 import navLinks from "../../data/links"
@@ -14,9 +15,9 @@ const TopNav = () => {
           <Col xs={12}>
             <div className="links-container">
               {navLinks.map((link, index) => (
-                <Link to={link.path} key={index}>
+                <AnchorLink to={link.hash} key={index}>
                   {link.title}
-                </Link>
+                </AnchorLink>
               ))}
             </div>
           </Col>
