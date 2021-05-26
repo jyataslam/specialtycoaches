@@ -1,7 +1,9 @@
 @use '../../variables.scss' as var;
 
 .title-with-description {
-    margin-bottom: 100px;
+    // margin-bottom: 100px;
+    padding: 60px 11% 45px;
+    text-align: center;
 
     .colorful-title {
         margin-bottom: 0;

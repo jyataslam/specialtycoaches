@@ -7,12 +7,13 @@ const TitleWithDescription = ({
   regularTitle,
   color,
   description,
+  textColor,
 }) => {
   return (
     <div className="title-with-description">
       <h1 className={`colorful-title ${color}`}>{colorfulTitle}</h1>
-      <h1>{regularTitle}</h1>
-      <h5>{description}</h5>
+      <h1 className={`${textColor}`}>{regularTitle}</h1>
+      <h5 className={`${textColor}`}>{description}</h5>
     </div>
   )
 }

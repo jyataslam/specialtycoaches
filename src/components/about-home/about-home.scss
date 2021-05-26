@@ -1,0 +1,40 @@
+.about-home {
+    position: relative;
+    height: 1000px;
+    background: black;
+
+    .container, .row, .col-12 {
+        height: 100%;
+    }
+
+    .col-12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gatsby-image-wrapper {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        opacity: .7;
+    }
+
+    .about-text-container {
+        text-align: center;
+        color: white;
+
+        h1 {
+            font-size: 4rem;
+            letter-spacing: 0.06rem;
+            font-weight: bold;
+            padding-bottom: 2rem;
+        }
+
+        h4 {
+            text-align: left;
+            padding-bottom: 2rem;
+        }
+    }
+}

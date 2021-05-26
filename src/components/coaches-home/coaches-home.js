@@ -16,21 +16,27 @@ const CoachesHome = () => (
             title="coaches"
             description="our coaches."
             subDescription="take your "
-            span="pick"
+            span="pick."
           />
         </Col>
       </Row>
     </Container>
     <Video
-      videoSrcUrl="https://www.youtube.com/embed/gbJDNy9cKDc?&playlist=gbJDNy9cKDc&autoplay=1&showinfo=0&controls=0&loop=1&modestbranding=1&playsinline=1&rel=0&showinfo=0&fs=0&mute=1"
+      videoSrcUrl="https://www.youtube.com/embed/gbJDNy9cKDc?&playlist=gbJDNy9cKDc"
       videoTitle="placeholder video"
     />
-    <SquareContainer />
+    <Container className="container-large">
+      <Row>
+        <Col>
+          <SquareContainer />
+        </Col>
+      </Row>
+    </Container>
     <Container>
       <Row>
         <Col xs={12} md={{ span: 6, offset: 3 }}>
           <LinkSection
-            linkSectionTitle="We have many more coaches as well. We'd love to show you the rest."
+            linkSectionTitle="We have many more coaches as well. Let us show you the rest."
             buttonTitle="Contact us about coaches"
             linkPath="/contact"
             textAlign="text-align-center"

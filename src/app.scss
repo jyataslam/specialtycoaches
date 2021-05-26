@@ -1,7 +1,34 @@
 @import "~bootstrap/scss/bootstrap";
 
+.container-large {
+    @media (min-width: 576px) {
+        max-width: 540px;
+    }
+    @media (min-width: 768px) {
+        max-width: 720px;
+    }
+    @media (min-width: 992px) {
+        max-width: 960px;
+    }
+    @media (min-width: 1200px) {
+        max-width: 1440px;
+    }
+}
+
 a {
     &:hover {
         text-decoration: none;
     }
+}
+
+.color-white {
+    color: white !important;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-black {
+    background-color: black;
 }
